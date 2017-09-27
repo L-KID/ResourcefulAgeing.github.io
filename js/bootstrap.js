@@ -8,3 +8,11 @@ function main(){
 }
 
 $(document).ready(main);
+
+$(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+
