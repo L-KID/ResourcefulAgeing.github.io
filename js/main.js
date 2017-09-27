@@ -1,4 +1,4 @@
-funtion main(){
+function main(){
 	$('.jumbotron').hide();
 	$('.jumbotron').fadeIn(1000);
 
