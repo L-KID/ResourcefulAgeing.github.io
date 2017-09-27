@@ -3,3 +3,5 @@ funtion main(){
 	$('.jumbotron').fadeIn(1000);
 
 }
+
+$(document).ready(main);
