@@ -15,6 +15,7 @@ footer .row {
 
 header h1 {
   font-weight: 600;
+  font-size: 40px;
   margin: 0;
 }
 
@@ -23,9 +24,10 @@ header nav {
   justify-content: flex-end;
 }
 
-header p {
+header a {
   padding: 0 20px;
   margin: 0;
+  text-decoration: none;
 }
 
 .jumbotron {
@@ -57,6 +59,10 @@ section .row img {
 
 .col-md-6 {
   margin: 0 0 30px;
+}
+
+.subAlbums p {
+  font-weight: 500;
 }
 
 .btn.btn-primary {
