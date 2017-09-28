@@ -10,14 +10,13 @@ function main(){
 			scrollTop: $('.subAlbums').offset().top}, 800, 'linear');	
 	});
 
-}
-
-$(document).ready(main);
-
-$(document).ready(function() {
 	$(".fancybox").fancybox({
 		openEffect	: 'none',
 		closeEffect	: 'none'
 	});
-});
+
+}
+
+$(document).ready(main);
+
 
