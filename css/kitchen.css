@@ -20,6 +20,10 @@ body {
   color: #fff;
 }
 
+.topicon{
+    text-align: center;
+}
+
 .row {
     padding: 0px 15px;
     
@@ -30,7 +34,11 @@ body {
 .imgbox{
     margin: 15px 0px;
 }
-
+.imgbox p {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 0px;
+}
 .youtube {
     position: relative;
     width: 100%;
