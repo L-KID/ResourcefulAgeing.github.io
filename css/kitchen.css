@@ -3,8 +3,6 @@ body {
   font-weight: 300;
 }
 
-
-
 .jumbotron {
   display: flex;
   align-items: center;
@@ -22,18 +20,43 @@ body {
   color: #fff;
 }
 
-
-
-section .row img {
-  margin: 20px auto;
-  width: 720px;
-  height: 460px;
-  
+.topicon{
+    text-align: center;
 }
 
-iframe {
+.row {
+    padding: 0px 15px;
+    
+  /*width: 720px;
+  height: 460px;*/
+}
+
+.imgbox{
+    margin: 15px 0px;
+}
+.imgbox p {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 0px;
+}
+.youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+    
+}
+
+/*iframe {
   margin-left: 0;
-}
+}*/
 
 .col-md-6 {
   margin: 0 0 30px;
