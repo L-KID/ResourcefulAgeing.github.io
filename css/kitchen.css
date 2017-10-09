@@ -9,13 +9,13 @@ body {
   background-image: url('https://tctechcrunch2011.files.wordpress.com/2017/02/1_sunbasket_meal_kits.jpg?w=659&zoom=2');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  height: 800px;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 .jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 150px;
+  font-weight: 900;
   margin: 0;
   color: #fff;
 }
@@ -24,34 +24,45 @@ body {
     text-align: center;
 }
 
+.container-mid{
+    /* the margin of the area of content*/
+    margin: 5px 44px;
+}
+
 .row {
-    padding: 0px 15px;
+    /*padding: 0px 1px;
     
   /*width: 720px;
   height: 460px;*/
 }
 
 .imgbox{
-    margin: 15px 0px;
+    /* margin between two pictures*/
+    margin: 30px 0px;
 }
 .imgbox p {
-    font-size: 16px;
-    line-height: 20px;
-    padding: 5px 0px;
+    font-size: 50px;
+    line-height: 60px;
+    /*padding: 5px 0px;*/
+    /*width:500px;*/
+
+}
+.imgbox img{
+    width: 100%
 }
 .youtube {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%;
+        width:100%;              /*横幅いっぱいにwidthを指定*/
+        padding-bottom: 56.25%;  /*高さをpaddingで指定(16:9)*/
+        height:0px;              /*高さはpaddingで指定するためheightは0に*/
+        position: relative;
 }
 
 .youtube iframe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100% !important;
-    height: 100% !important;
-    
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
 }
 
 /*iframe {
