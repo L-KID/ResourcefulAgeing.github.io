@@ -7,7 +7,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  background-image: url('https://tctechcrunch2011.files.wordpress.com/2017/02/1_sunbasket_meal_kits.jpg?w=659&zoom=2');
+  background-image: url(../img/familyphoto/02.jpg);
   background-size: cover;
   color: #ffffff;
   height: 800px;
