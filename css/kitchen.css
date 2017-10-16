@@ -65,26 +65,32 @@ body {
 
 .imgbox{
     /* margin between two pictures*/
-    margin: 30px 0px;
+    margin: 20px 0px;
 }
 .imgbox p {
     font-size: 50px;
+    color:#666666;
     line-height: 60px;
-    /*padding: 5px 0px;*/
+    padding-top: 15px;
+    padding-bottom: 40px;
+    padding-left: 10px
     /*width:500px;*/
 
 }
 .imgbox img{
-    width: 100%
+    width: 100%;
+    border-radius: 40px;
 }
-.youtube {
-        width:100%;              /*横幅いっぱいにwidthを指定*/
-        padding-bottom: 56.25%;  /*高さをpaddingで指定(16:9)*/
-        height:0px;              /*高さはpaddingで指定するためheightは0に*/
-        position: relative;
+.youtube {   
+    width:100%;              /*横幅いっぱいにwidthを指定*/
+    padding-bottom: 56.25%;  /*高さをpaddingで指定(16:9)*/
+    height:0px;              /*高さはpaddingで指定するためheightは0に*/
+    position: relative;
+
 }
 
 .youtube iframe {
+        padding-top:20px; 
         position: absolute;
         top: 0;
         left: 0;
